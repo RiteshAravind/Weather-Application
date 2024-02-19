@@ -1,0 +1,64 @@
+#box{
+
+width: 300px;
+text-align: center;
+margin-top: 50px;
+margin-left: 100px;
+background: rgba(255, 255, 255, .2);
+box-shadow: 0 5px 15px rgba(0,0,0,.5);
+color: white;
+border-radius: 10px;
+padding: 20px;
+font-size: 20px;
+}
+#main{
+background-image: url("https://wallpapertag.com/wallpaper/full/c/8/f/969983-nature-rain-wallpaper-1920x1200-for-hd-1080p.jpg");
+
+background-color: black;
+  height: 750px;
+}
+.mapouter{
+  
+    margin-left: 300px;
+    margin-top: -360px;
+   
+}
+#input{
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 80%;
+    height: 40px;
+    opacity: .5;
+    color: white;
+   
+    font-size: 30px;
+}
+#input::placeholder{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+button{
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    margin-left: 20px;
+    height: 50px;
+    margin-top: -15px;
+    opacity: .4;
+    cursor: pointer;
+}
+button:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+iframe{
+    border-radius: 20px;
+    height: 380px;
+}
+a{
+    opacity: 0;
+}
